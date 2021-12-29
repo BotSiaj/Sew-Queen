@@ -26,18 +26,18 @@ let WorkType = Details.WORKTYPE == 'public' ? false : true
 
 
 let REPORT_DESC = "For The Report...."
-let AAA = "*⚠⚠Report Accepted⚠⚠*\n✔"
+let AAA = "*⚠⚠تم يحلو 😘⚠⚠*\n✔"
 let AAB = ", Unusual Activity Detected"
 let AAC = ", 🎲🎲.\n\n\n*********************************"
 let NEED_NUM = "*Give me a user!*\n__✨"
 let REPORT = "⚠ @{} ⚠"
 
-let SEWA = "⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠\n\n         *❆❉☣REPORTED☣❉❆*\n         \n*to*:-"
+let SEWA = "⚠\n\n         *❆❉☣REPORTED☣❉❆*\n         \n*to*:-"
 let SEWB = "\nUser:-"
 let SEWC = "\n\n\n*Reason*:-"
 let SEWD = "\n\n*Sec Reson*:-"
 let SEWE = "╔═══════════ೋೋ═══════════╗\n╠       ⚠⚠⚠*Report Detected*⚠⚠⚠\n\n"
-let SEWF = "\n╠           *👆👆Group Admins👆👆*                      \n╚═══════════ೋೋ═══════════╝\n\n_*Please Wait For Admins Respond*_\n\n\n\n         *👑ᴘᴏᴡᴇʀᴅ ʙʏ ꜱᴇᴡ ǫᴜᴇᴇɴ👑*\n\n⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠⚠"
+let SEWF = "\n╠           *👆👆Group Admins👆👆*                      \n╚═══════════ೋೋ═══════════╝\n\n_*انتظر يجي مشرف🐧*_\n\n\n\n         *👑ᴘᴏᴡᴇʀᴅ ʙʏ DADY JIRAYA👑*\n\n⚠"
 SewQueen['IntroduceCMD']({pattern: 'report ?(.*)', fromMe: WorkType, desc: REPORT_DESC}, (async (message, input) => {    
         if (message.reply_message !== false, input[1] === '') {
         var SewRep;{
