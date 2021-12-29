@@ -146,7 +146,7 @@ await sendMessageDownloader(QueenSew, input, 'wiki')
 })); 
 
 SewQueen['IntroduceCMD']({
-        pattern: 'img ?(.*)',  // Google Image Download With 10+ images
+        pattern: 'img ?(.*)',  // Google Image Download With 1+ images
         fromMe: WorkType, 
         dontAdCommandList: true
         }, 
@@ -314,12 +314,12 @@ await sendMessageBrodcast(QueenSew, input)
 }
 })); 
 SewQueen['IntroduceCMD']({
-        pattern: 'sticker ?(.*)',   // Sticker Maker With Packname && Author Name
+        pattern: 'sticker ?(.*)',   /العم جيرايا 🦦💙/ Sticker Maker With Packname && Author Name
         fromMe: WorkType, 
         dontAdCommandList: true
         }, 
 (async (QueenSew, input) => { 
-await sendMessageDownloader(QueenSew, input, 'stickerwithpackname');
+await sendMessageDownloader(QueenSew, input, 'العم جيرايا 🦦💙');
 })); 
 SewQueen['IntroduceCMD']({
         pattern: 'ss ?(.*)',   //Site To Screenshot
