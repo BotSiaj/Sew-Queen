@@ -79,7 +79,7 @@ var nwjson = await message.client.groupMetadata(message.jid)
                 jids.push(uye.id.replace('c.us', 's.whatsapp.net'));
             }
         );
-        await message.client.sendMessage(message.jid,nwjson.subject + '\n\n   ❄Group Members❄\n\n' + mesaj, MessageType.extendedText, {contextInfo: {mentionedJid: jids}, previewType: 0})
+        await message.client.sendMessage(message.jid,nwjson.subject + '\n\n   ❄تلاميذ العم جيرايا 🦦❄\n\n' + mesaj, MessageType.extendedText, {contextInfo: {mentionedJid: jids}, previewType: 0})
     }
     
 }));
