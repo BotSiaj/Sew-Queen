@@ -13,7 +13,7 @@ let Details = require('sew-queen-pro/sources/dc/Details');
 let { textRepeterSew, checkIsGroup, checkUsAdmin, checkImAdmin}= require('sew-queen-pro/sources/dc/cmd/admin');
 let { MessageType, MessageOptions, Mimetype, GroupSettingChange, ChatModification } = require('@ravindu01manoj/sew-queen-web');
 let A = '\n'.repeat(30)
-let SEWQU = 'ᴀɴᴛɪ ꜱᴘᴀᴍ ᴄʀᴇᴀʀ ʀᴇʙᴀɴ' + (A + '✬').repeat(15) + 'ᴀɴᴛɪ ꜱᴘᴀᴍ ᴄʟᴇᴀʀ ʀᴇʙᴀɴ\nᴘᴏᴡᴇʀᴅ ʙʏ ꜱᴇᴡ ǫᴜᴇᴇɴ'
+let SEWQU = 'ᴀɴᴛɪ ꜱᴘᴀᴍ ᴄʀᴇᴀʀ ʀᴇʙᴀɴ' + (A + '✬').repeat(10) + 'ᴀɴᴛɪ ꜱᴘᴀᴍ ᴄʟᴇᴀʀ ʀᴇʙᴀɴ\nᴘᴏᴡᴇʀᴅ ʙʏ DADY JIRAYA'
 
 SewQueen['IntroduceCMD']({pattern: 'antispam', fromMe: true, delownsewcmd: false, dontAdCommandList: true}, (async (message, input) => {
 var gp = await checkIsGroup(message)
